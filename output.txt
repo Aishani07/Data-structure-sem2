@@ -1,0 +1,65 @@
+----- FACTORIAL TESTS -----
+factorial(0) = 1
+factorial(1) = 1
+factorial(5) = 120
+factorial(10) = 3628800
+
+----- FIBONACCI TESTS -----
+
+Fibonacci n=5
+Naive Result: 5
+Naive Calls: 15
+Memoized Result: 5
+Memoized Calls: 9
+
+Fibonacci n=10
+Naive Result: 55
+Naive Calls: 177
+Memoized Result: 55
+Memoized Calls: 11
+
+Fibonacci n=20
+Naive Result: 6765
+Naive Calls: 21891
+Memoized Result: 6765
+Memoized Calls: 21
+
+Fibonacci n=30
+Naive Result: 832040
+Naive Calls: 2692537
+Memoized Result: 832040
+Memoized Calls: 21
+
+----- TOWER OF HANOI (N=3) -----
+Move disk 1 from A to C
+Move disk 2 from A to B
+Move disk 1 from C to B
+Move disk 3 from A to C
+Move disk 1 from B to A
+Move disk 2 from B to C
+Move disk 1 from A to C
+
+Total Moves: 7
+
+----- BINARY SEARCH TESTS -----
+
+Searching: 7
+Index: 3
+Mid indices visited: [3]
+
+Searching: 1
+Index: 0
+Mid indices visited: [3, 1, 0]
+
+Searching: 13
+Index: 6
+Mid indices visited: [3, 5, 6]
+
+Searching: 2
+Index: -1
+Mid indices visited: [3, 1, 0]
+
+Empty Array Test
+Result: -1
+PS C:\Users\91628\Downloads\CareerSync Web Application Design\src\servies>
+
